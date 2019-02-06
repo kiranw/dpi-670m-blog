@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Kiran Wattamwar - Portfolio</title>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'/>
+	<link rel='stylesheet' href='css/style.css'/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+</head>
+<body>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86141262-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+<div id='scroll'>
+	<div id='cards'>
+		<div>
+			<a href="http://kiranw.github.io/portfolio">
+				<img src="cards/intro.gif" alt="HEY	I’m Kiran. Check out my work!" />
+			</a>		
+		</div>
+
+		<div>
+			<a href="post-0.html">
+				<img src="cards/post0.png" alt="Blog Post 0: A case of failure in govtech" />
+			</a>
+		</div>
+
+		<!-- <div>
+			<a href=".html">
+				<img src="cards/physicalfab.png" alt="Fabrication" />
+			</a>
+		</div>
+
+
+		<div>
+			<a href=".html">
+				<img src="cards/electronics.png" alt="Electronics" />
+			</a>
+		</div>
+		
+		<div>
+			<a href=".html">
+				<img src="cards/composites.png" alt="Composites" />
+			</a>
+		</div>
+
+		
+
+		<div>
+			<a href=".html">
+				<img src="cards/lasercut.png" alt="Laser Cutting" />
+			</a>
+		</div> -->
+
+	</div>
+</div>
+
+<script>
+    function scrollHorizontal(){
+        console.log("being called");
+        var leftPos = $("#scroll").scrollLeft();
+        console.log(leftPos);
+        $("#scroll").animate({scrollLeft: leftPos + 200}, 200);
+        console.log($("#scroll").scrollLeft());
+    }
+</script>
+
+<img onmouseover="scrollHorizontal()" class="blink rainbow" src="img/scroll-red.png">
+<div id='links'>
+	<a href='https://github.com/kiranw'><span class='fa fa-github'></span></a>
+	<a href='mailto:kiranw@mit.edu'><span class='fa fa-envelope'></span></a>
+	<a href='http://vimeo.com/wattamwar'><span class='fa fa-vimeo'></span></a>
+	<a href='http://kiranwatt.tumblr.com'><span class='fa fa-tumblr'></span></a>
+	<a href='http://linkedin.com/in/kiranw'><span class='fa fa-linkedin'></span></a>
+	<a href='http://www.youtube.com/channel/UC8NTzsXi4SO-7Slm7dG3gNw'><span class='fa fa-youtube-play'></span></a>
+</div>
+
+
+
+</body>
+</html>
