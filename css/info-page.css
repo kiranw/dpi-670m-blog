@@ -185,3 +185,8 @@ a:hover{
 	width: 50vw;
 	height:auto;
 }
+
+.quote {
+	color: #777777;
+	font-syle: italic;
+}
