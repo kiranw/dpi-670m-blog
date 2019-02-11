@@ -130,7 +130,7 @@ a:hover{
 }
 
 .textbox {
-	width: 50vw;
+	width: 65vw;
 	float: left;
 	/*padding-right:2vw;*/
 }
@@ -141,7 +141,7 @@ a:hover{
 }
 
 .imgbox {
-	width: 30vw;
+	width: 20vw;
 	float: left;
 	/*position: relative;*/
 	/*margin-right:2vw;*/
@@ -192,8 +192,12 @@ a:hover{
 }
 
 .quote {
-	color: #777777;
+	color: #2c84e6;
 	font-family: "Apercu-Italic";
 	margin-left: 30px;
 	display: block;
+}
+
+.inline-quote {
+	color: #2c84e6;
 }
