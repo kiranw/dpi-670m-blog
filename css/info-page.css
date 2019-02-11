@@ -9,6 +9,11 @@
 }
 
 @font-face {
+	font-family: "Apercu-Italic";
+	src:url("../fonts/Apercu-LightItalic.ttf");
+}
+
+@font-face {
 	font-family: "ApercuMono";
 	src:url("../fonts/apercu-mono-webfont.ttf");
 }
@@ -188,5 +193,7 @@ a:hover{
 
 .quote {
 	color: #777777;
-	font-syle: italic;
+	font-family: "Apercu-Italic";
+	margin-left: 30px;
+	display: block;
 }
