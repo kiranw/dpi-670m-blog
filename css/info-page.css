@@ -159,6 +159,20 @@ a:hover{
 	height: auto;
 }
 
+.sire-img {
+	width: 60%;
+	height: auto;
+	margin-bottom: 100px;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+	border-radius: 3px;
+	transition: box-shadow 0.15s ease-in-out;
+	-webkit-transition: box-shadow 0.15s ease-in-out;
+}
+
+.italic {
+	font-style: italic;
+}
+
 .clear {
 	clear:both;
 }
@@ -200,4 +214,12 @@ a:hover{
 
 .inline-quote {
 	color: #2c84e6;
+}
+
+.padding-bottom {
+	height: 200px;
+}
+
+.smaller {
+	font-size: 0.8em;
 }
