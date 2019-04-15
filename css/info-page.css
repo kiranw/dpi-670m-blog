@@ -57,6 +57,7 @@ a:hover{
 }
 
 #about-text {
+	color: #2c84e6;
 	margin-top:15vh;
 	font-size:2em;
 	/*margin-left: 6vw;*/
