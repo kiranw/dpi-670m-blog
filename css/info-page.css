@@ -149,6 +149,12 @@ a:hover{
 	margin-left:3vw;
 }
 
+.smaller-img {
+	width: 60% !important;
+	height: auto !important;
+	text-align: center;
+}
+
 .author, .date {
 	color: gray;
 	font-style: italic;
@@ -223,4 +229,8 @@ a:hover{
 
 .smaller {
 	font-size: 0.8em;
+}
+
+li {
+	margin-bottom: 20px;
 }
